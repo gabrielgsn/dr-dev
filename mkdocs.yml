@@ -1,0 +1,127 @@
+site_name: dr.dev
+site_url: https://gabrielgsn.github.io/dr-dev/
+site_description: >-
+  Aprenda a criar aplicacoes com inteligencia artificial,
+  mesmo sem saber programar. Um guia pratico e direto ao ponto.
+site_author: dr.dev
+
+repo_url: https://github.com/gabrielgsn/dr-dev
+repo_name: dr-dev
+
+theme:
+  name: material
+  language: pt-BR
+  custom_dir: overrides
+  favicon: assets/images/favicon.png
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Inicio: index.md
+  - Sobre: sobre.md
+  - Modulos:
+    - modulos/index.md
+    - O que e AI Coding?: modulos/01-o-que-e-ai-coding.md
+    - Prompt Engineering: modulos/02-prompt-engineering.md
+    - Ferramentas: modulos/03-ferramentas.md
+  - Recursos:
+    - Glossario: recursos/glossario.md
+    - Links Uteis: recursos/links-uteis.md
+    - FAQ: recursos/faq.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: Nesta pagina
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang: pt
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gabrielgsn/dr-dev
+      name: Repositorio no GitHub
+  generator: false
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+watch:
+  - includes
+
+copyright: >-
+  &copy; 2026 dr.dev
