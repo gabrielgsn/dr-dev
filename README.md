@@ -10,7 +10,7 @@ source .venv/Scripts/activate  # Windows Git Bash
 pip install -r requirements.txt
 mkdocs serve
 ```
-
+Acesse `https://github.com/gabrielgsn/dr-dev` para ver o repositorio
 Acesse `http://127.0.0.1:8000` para preview local.
 
 ## Deploy
