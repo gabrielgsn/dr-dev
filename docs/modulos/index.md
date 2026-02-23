@@ -4,10 +4,10 @@ icon: material/road-variant
 
 # Trilha de Aprendizado
 
-Siga os modulos na ordem abaixo. Cada um constroi sobre o anterior.
+Siga os módulos na ordem abaixo. Cada um constrói sobre o anterior.
 
 !!! info "Tempo total estimado: 4-5 horas"
-    Voce pode completar no seu ritmo. Nao precisa fazer tudo de uma vez.
+    Você pode completar no seu ritmo. Não precisa fazer tudo de uma vez.
 
 ---
 
@@ -15,12 +15,12 @@ Siga os modulos na ordem abaixo. Cada um constroi sobre o anterior.
 
 ```mermaid
 graph LR
-    A["1. O que e\nAI Coding?"] --> B["2. Prompt\nEngineering"]
+    A["1. O que é AI Coding?"] --> B["2. Prompt Engineering"]
     B --> C["3. Ferramentas"]
     C --> D["4. Primeiro\nApp"]
     D --> E["5. Agentes"]
     E --> F["6. Deploy"]
-    F --> G["7. Atualizacao"]
+    F --> G["7. Atualização"]
 
     style A fill:#3f51b5,color:#fff
     style B fill:#3f51b5,color:#fff
@@ -31,37 +31,37 @@ graph LR
     style G fill:#9e9e9e,color:#fff
 ```
 
-*Modulos em azul estao disponiveis. Os demais serao publicados em breve.*
+*Módulos em azul estão disponíveis. Os demais serão publicados em breve.*
 
 ---
 
-## Modulos disponiveis
+## Módulos disponíveis
 
-### :material-lightbulb-outline: [Modulo 1 -- O que e AI Coding?](01-o-que-e-ai-coding.md)
-**Tempo estimado: 30 min** | Entenda o que e possivel construir com IA, como funciona o "vibe coding" e por que isso muda tudo para profissionais nao-programadores.
-
----
-
-### :material-chat-processing-outline: [Modulo 2 -- Prompt Engineering](02-prompt-engineering.md)
-**Tempo estimado: 45 min** | Aprenda a se comunicar com a IA de forma eficiente. Domine tecnicas de construcao de prompts e veja a diferenca que instrucoes claras fazem.
+### :material-lightbulb-outline: [Módulo 1 -- O que é AI Coding?](01-o-que-e-ai-coding.md)
+**Tempo estimado: 30 min** | Entenda o que é possível construir com IA, como funciona o "vibe coding" e por que isso muda tudo para profissionais não-programadores.
 
 ---
 
-### :material-toolbox-outline: [Modulo 3 -- Ferramentas do Ecossistema](03-ferramentas.md)
-**Tempo estimado: 45 min** | Conheca as principais plataformas de AI coding: Claude, Cursor, Bolt, Lovable e mais. Saiba qual usar para cada situacao.
+### :material-chat-processing-outline: [Módulo 2 -- Prompt Engineering](02-prompt-engineering.md)
+**Tempo estimado: 45 min** | Aprenda a se comunicar com a IA de forma eficiente. Domine técnicas de construção de prompts e veja a diferença que instruções claras fazem.
+
+---
+
+### :material-toolbox-outline: [Módulo 3 -- Ferramentas do Ecossistema](03-ferramentas.md)
+**Tempo estimado: 45 min** | Conheça as principais plataformas de AI coding: Claude, Cursor, Bolt, Lovable e mais. Saiba qual usar para cada situação.
 
 ---
 
 ## Em breve
 
-### :material-rocket-launch-outline: Modulo 4 -- Seu Primeiro App
+### :material-rocket-launch-outline: Módulo 4 -- Seu Primeiro App
 Construa um aplicativo funcional do zero usando IA.
 
-### :material-robot-outline: Modulo 5 -- Orquestracao de Agentes
-Aprenda a combinar multiplas IAs para resolver problemas complexos.
+### :material-robot-outline: Módulo 5 -- Orquestração de Agentes
+Aprenda a combinar múltiplas IAs para resolver problemas complexos.
 
-### :material-cloud-upload-outline: Modulo 6 -- Deploy e Lancamento
+### :material-cloud-upload-outline: Módulo 6 -- Deploy e Lançamento
 Publique seu app para que qualquer pessoa possa usar.
 
-### :material-newspaper-variant-outline: Modulo 7 -- Mantendo-se Atualizado
+### :material-newspaper-variant-outline: Módulo 7 -- Mantendo-se Atualizado
 Monte uma rotina para acompanhar as novidades desse mundo que muda toda semana.

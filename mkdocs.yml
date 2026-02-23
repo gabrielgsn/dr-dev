@@ -1,8 +1,8 @@
 site_name: dr.dev
 site_url: https://gabrielgsn.github.io/dr-dev/
 site_description: >-
-  Aprenda a criar aplicacoes com inteligencia artificial,
-  mesmo sem saber programar. Um guia pratico e direto ao ponto.
+  Aprenda a criar aplicações com inteligência artificial,
+  mesmo sem saber programar. Um guia prático e direto ao ponto.
 site_author: dr.dev
 
 repo_url: https://github.com/gabrielgsn/dr-dev
@@ -53,16 +53,17 @@ theme:
     repo: fontawesome/brands/github
 
 nav:
-  - Inicio: index.md
+  - Início: index.md
   - Sobre: sobre.md
-  - Modulos:
+  - Primeiros Passos: primeiros-passos.md
+  - Módulos:
     - modulos/index.md
-    - O que e AI Coding?: modulos/01-o-que-e-ai-coding.md
+    - O que é AI Coding?: modulos/01-o-que-e-ai-coding.md
     - Prompt Engineering: modulos/02-prompt-engineering.md
     - Ferramentas: modulos/03-ferramentas.md
   - Recursos:
-    - Glossario: recursos/glossario.md
-    - Links Uteis: recursos/links-uteis.md
+    - Glossário: recursos/glossario.md
+    - Links Úteis: recursos/links-uteis.md
     - FAQ: recursos/faq.md
 
 markdown_extensions:
@@ -74,7 +75,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-      title: Nesta pagina
+      title: Nesta página
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -114,7 +115,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/gabrielgsn/dr-dev
-      name: Repositorio no GitHub
+      name: Repositório no GitHub
   generator: false
 
 extra_css:
