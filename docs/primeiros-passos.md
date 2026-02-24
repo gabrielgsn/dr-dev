@@ -7,6 +7,39 @@ icon: material/rocket-launch-outline
 !!! info "Tempo estimado: 30-45 minutos"
     Este guia vai te levar do zero absoluto até ter todas as ferramentas instaladas e prontas para uso. Você só precisa fazer isso **uma vez**.
 
+## Precisa de ajuda? Use o Claude como assistente
+
+Se voce esta perdido ou prefere ter alguem te guiando em tempo real, pode usar o **Claude** (a IA da Anthropic) para te ajudar com todo o processo. Basta acessar [claude.ai](https://claude.ai){ target=_blank }, criar uma conta gratuita, e colar a mensagem abaixo.
+
+!!! example "Copie e cole essa mensagem no Claude"
+
+    ```
+    Oi Claude! Preciso da sua ajuda para configurar meu computador para
+    programar usando IA. Eu nunca programei na vida, nao tenho nenhuma
+    ferramenta instalada (nem Git, nem VS Code, nem Node.js, nem Python),
+    e nao tenho conta no GitHub.
+
+    Estou seguindo o guia do site dr.dev
+    (https://gabrielgsn.github.io/dr-dev/primeiros-passos/) e preciso
+    instalar tudo que esta listado la:
+
+    1. Criar conta no GitHub
+    2. Instalar o VS Code
+    3. Instalar o Git
+    4. Instalar o Node.js
+    5. Instalar o Claude Code (a ferramenta de IA no terminal)
+
+    Por favor, me guie passo a passo. Vou te dizendo o que aparece na
+    minha tela e voce me diz o que fazer. Fale comigo como se eu fosse
+    inteligente mas nunca tivesse mexido com programacao. Meu computador
+    e [WINDOWS/MAC - escreva qual e o seu].
+    ```
+
+!!! tip "Dica"
+    Troque `[WINDOWS/MAC - escreva qual e o seu]` pelo seu sistema operacional (ex: "Windows 11" ou "MacBook"). O Claude vai adaptar as instrucoes para voce.
+
+---
+
 ## Visão geral
 
 Antes de começar a criar aplicações com IA, você precisa configurar algumas ferramentas no seu computador. Não se preocupe — é mais simples do que parece.

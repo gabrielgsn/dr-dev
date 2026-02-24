@@ -14,8 +14,8 @@ Você não precisa ser programador para construir software.
 Com as ferramentas certas e um bom direcionamento, qualquer profissional
 pode transformar ideias em aplicações funcionais usando inteligência artificial.
 
-[Começar agora :material-arrow-right:](modulos/index.md){ .md-button .md-button--primary }
-[Sobre o projeto](sobre.md){ .md-button }
+[Começar do zero :material-arrow-right:](primeiros-passos.md){ .md-button .md-button--primary }
+[Já tenho tudo instalado](modulos/index.md){ .md-button }
 
 </div>
 
@@ -51,6 +51,13 @@ O conteúdo acompanha a velocidade da IA.
 </div>
 
 </div>
+
+---
+
+!!! tip "Nunca programou? Comece aqui"
+    Se voce nunca instalou nenhuma ferramenta de programacao, o primeiro passo e configurar seu computador. Leva uns 30 minutos e voce so precisa fazer **uma vez**.
+
+    [Ir para Primeiros Passos :material-arrow-right:](primeiros-passos.md){ .md-button .md-button--primary }
 
 ---
 
