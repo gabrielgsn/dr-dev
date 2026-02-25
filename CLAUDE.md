@@ -43,6 +43,13 @@ Dependencies are installed globally via Miniconda (`mkdocs-material`, `mkdocs-mi
 - `mkdocs.yml` — Site config, navigation structure, extensions, and plugins
 - `.github/workflows/ci.yml` — Auto-deploys to GitHub Pages on push to `main`
 
+## Working Rules
+
+- **Research cap:** Never perform more than 3-5 web searches before pausing and reporting findings to the user. Long research sessions consume tokens quickly and can exhaust the context window before any code is written.
+- **Research-then-confirm:** When a task requires research AND implementation, always do research first, present a summary and proposed plan, and wait for user confirmation before writing code.
+- **Scope check:** If a task feels broad (e.g., "implement modules 4-7"), ask the user if they want one module at a time or all at once before starting. Default to one at a time.
+- **Token awareness:** If a task is large, proactively break it into smaller chunks and inform the user which chunk is being done first.
+
 ## Content Conventions
 
 - **Target audience:** Experienced professionals (engineering background) with no programming experience
@@ -70,10 +77,7 @@ Dependencies are installed globally via Miniconda (`mkdocs-material`, `mkdocs-mi
 - Ready-made Claude prompt on Primeiros Passos page for users who need AI-guided setup help
 
 ### Not Yet Built
-- Module 4: First App (build something real)
-- Module 5: Agent Orchestration
-- Module 6: Deploy and Launch
-- Module 7: Staying Updated
+- (All 7 modules are now complete)
 
 ## Key Design Decisions
 

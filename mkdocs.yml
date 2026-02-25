@@ -61,6 +61,10 @@ nav:
     - O que é AI Coding?: modulos/01-o-que-e-ai-coding.md
     - Prompt Engineering: modulos/02-prompt-engineering.md
     - Ferramentas: modulos/03-ferramentas.md
+    - Seu Primeiro App: modulos/04-primeiro-app.md
+    - Agentes de IA: modulos/05-agentes.md
+    - Publicar e Lançar: modulos/06-deploy.md
+    - Mantendo-se Atualizado: modulos/07-atualizado.md
   - Recursos:
     - Glossário: recursos/glossario.md
     - Links Úteis: recursos/links-uteis.md
